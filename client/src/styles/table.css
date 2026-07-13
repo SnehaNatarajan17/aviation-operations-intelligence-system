@@ -1,0 +1,47 @@
+.flight-table-container{
+
+    margin-top:40px;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.flight-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+.flight-table th{
+
+    background:#0f172a;
+
+    color:white;
+
+    padding:14px;
+
+}
+
+.flight-table td{
+
+    padding:12px;
+
+    border-bottom:1px solid #e5e7eb;
+
+}
+
+.flight-table tr:hover{
+
+    background:#f8fafc;
+
+}

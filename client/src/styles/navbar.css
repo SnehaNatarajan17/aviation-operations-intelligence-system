@@ -1,0 +1,50 @@
+.navbar-custom{
+    width:100%;
+    height:80px;
+    background:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 35px;
+
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+
+.navbar-left h2{
+    margin:0;
+    font-size:30px;
+    color:#0f172a;
+}
+
+.navbar-left p{
+    margin:4px 0 0;
+    color:#64748b;
+    font-size:14px;
+}
+
+.navbar-right{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.live-status{
+    background:#dcfce7;
+    color:#166534;
+
+    padding:10px 20px;
+
+    border-radius:25px;
+
+    font-weight:bold;
+}
+
+.current-date{
+
+    color:#475569;
+
+    font-weight:500;
+
+}
