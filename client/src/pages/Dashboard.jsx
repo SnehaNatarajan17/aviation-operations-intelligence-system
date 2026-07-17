@@ -8,33 +8,33 @@ import Chatbot from "../components/Chatbot";
 
 import "../styles/dashboard.css";
 
-function Dashboard(){
+function Dashboard() {
 
-    return(
+    return (
 
         <>
 
             <Navbar />
 
-<div className="dashboard">
+            <div className="dashboard">
 
-    <Sidebar />
+                <Sidebar />
 
-    <div className="dashboard-content">
+                <div className="dashboard-content">
 
-        <StatisticsCards />
+                    <StatisticsCards />
 
-        <FlightTable />
+                    <FlightTable />
 
-        <FlightMap />
+                    <SearchFlight />
 
-        <SearchFlight />
+                    <FlightMap />
 
-        <Chatbot />
+                    <Chatbot />
 
-    </div>
+                </div>
 
-</div>
+            </div>
 
         </>
 

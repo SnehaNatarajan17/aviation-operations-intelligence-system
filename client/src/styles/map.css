@@ -1,0 +1,21 @@
+.map-container{
+
+    margin-top:40px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.leaflet-container{
+
+    margin-top:20px;
+
+    border-radius:12px;
+
+}
