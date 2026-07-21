@@ -5,6 +5,7 @@ import FlightMap from "../components/FlightMap";
 import FlightTable from "../components/FlightTable";
 import SearchFlight from "../components/SearchFlight";
 import Chatbot from "../components/Chatbot";
+import AnalyticsChart from "../components/AnalyticsChart";
 
 import "../styles/dashboard.css";
 
@@ -22,15 +23,29 @@ function Dashboard() {
 
                 <div className="dashboard-content">
 
-                    <StatisticsCards />
+                    <div id="dashboard">
+                        <StatisticsCards />
+                    </div>
 
-                    <FlightTable />
+                    <div id="flights">
+                        <FlightTable />
+                    </div>
 
-                    <SearchFlight />
+                    <div id="search">
+                        <SearchFlight />
+                    </div>
 
-                    <FlightMap />
+                    <div id="map">
+                        <FlightMap />
+                    </div>
 
-                    <Chatbot />
+                    <div id="analytics">
+                        <AnalyticsChart />
+                    </div>
+
+                    <div id="chatbot">
+                        <Chatbot />
+                    </div>
 
                 </div>
 

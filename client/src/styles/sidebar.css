@@ -61,3 +61,13 @@
     transform:translateX(6px);
 
 }
+.sidebar ul li {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar ul li:hover {
+    background-color: #2d5bff;
+    color: white;
+    border-radius: 8px;
+}
